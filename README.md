@@ -238,7 +238,7 @@ _本セクションは標準である．_
 <div class="text-left" markdown="1">
 <table style="width:100%">
   <tr>
-    <td><img src="media/Memorized-secret.png" alt="authenticator" style="width: 200px;height: 100px;min-width:100px;min-height:100px;"/></td>
+    <td><img src="media/Memorized-secret.png" alt="authenticator" style="width: 300px;height: 100px;min-width:100px;min-height:100px;"/></td>
     <td>記憶シークレットAuthenticatorは、一般的には<i>パスワード</i>や，数字ならば<i>PIN</i>として表現されているものであり，ユーザによって選択され，記憶されるシークレットである．記憶シークレットは攻撃者が正しい値を推測したり秘密の値を特定できないように，十分に複雑かつ秘密にしておく必要がある． 記憶シークレットは <i>something you know</i> である．</td>
   </tr>
   </table>
