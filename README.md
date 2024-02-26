@@ -287,12 +287,12 @@ PBKDF2において，コストファクタは繰り返し回数である: PBKDF2
 
 加えて，Verifierは，自身だけが知っているシークレットをソルト値として用いた鍵導出関数の適用を追加で実施すべきである(SHOULD)．もし可能ならばソルト値はApprove済み乱数生成器 [[SP 800-90Ar1]](#SP800-90Ar1)を利用して生成されるべき(SHOULD)であり，[SP 800-131A](#SP800-131A)の最新版で指定されている最小のセキュリティ強度(本書の公開日時点では112ビット)を少なくとも備えるべき(SHOULD)である．このシークレットソルト値は，ハッシュ化された記憶シークレットとは別に(例えば，ハードウェアセキュリティモジュールなどの特別なデバイスの中に)保存されるものとする(SHALL)．この追加の適用により，シークレットソルト値が秘密である限り，記憶シークレットのハッシュに対するブルートフォース攻撃は非現実的である．
 
-#### <a name="lookupsecrets"></a> 5.1.2 ルックアップシークレット
+#### 5.1.2 ルックアップシークレット
 
 <div class="text-left" markdown="1">
 <table style="width:100%">
   <tr>
-    <td><img src="media/Look-up-secrets.png" alt="authenticator" style="width: 100px;height: 100px;min-width:100px;min-height:100px;"/></td>
+    <td><img src="media/Look-up-secrets.png" alt="authenticator" style="width: 300px;height: 100px;min-width:100px;min-height:100px;"/></td>
     <td>ルックアップシークレットAuthenticatorは物理的または電子的なレコードであり，ClaimantとCSPとの間で共有されているシークレット一式を記録するものである．Claimantは，Verifierからの入力要求に答えるために必要とされる適切なシークレットを検索するためにAuthenticatorを利用する．例えば，VerifierはClaimantに対して，カード上に印字された表形式の数字または文字列のうち特定の一部を提示するよう求められるかもしれない．ルックアップシークレットの一般的な適用としては，Subscriberによって保存され，別のAuthenticatorが紛失したり機能しなくなった際に用いる"リカバリキー"の利用がある．ルックアップシークレットは<i>something you have</i>である．</td>
   </tr>
   </table>
