@@ -292,7 +292,7 @@ PBKDF2において，コストファクタは繰り返し回数である: PBKDF2
 <div class="text-left" markdown="1">
 <table style="width:100%">
   <tr>
-    <td><img src="media/Look-up-secrets.png" alt="authenticator" style="width: 300px;height: 100px;min-width:100px;min-height:100px;"/></td>
+    <td><img src="media/Look-up-secrets.png" alt="authenticator" style="width: 300px;height: 100px;min-width:300px;min-height:100px;"/></td>
     <td>ルックアップシークレットAuthenticatorは物理的または電子的なレコードであり，ClaimantとCSPとの間で共有されているシークレット一式を記録するものである．Claimantは，Verifierからの入力要求に答えるために必要とされる適切なシークレットを検索するためにAuthenticatorを利用する．例えば，VerifierはClaimantに対して，カード上に印字された表形式の数字または文字列のうち特定の一部を提示するよう求められるかもしれない．ルックアップシークレットの一般的な適用としては，Subscriberによって保存され，別のAuthenticatorが紛失したり機能しなくなった際に用いる"リカバリキー"の利用がある．ルックアップシークレットは<i>something you have</i>である．</td>
   </tr>
   </table>
