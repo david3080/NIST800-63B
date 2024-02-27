@@ -1,4 +1,12 @@
 ## 用語リスト
-
+- Authenticate 認証
+- Authentcation 認証
+- Reauthentication 再認証
+- Authentication Factor 認証要素
 - Authenticator 認証器
 - Verifier 検証者
+- Claimant 請求者
+- Digital Authentication デジタル認証
+- Digital Identity デジタルID
+- Subject サブジェクト
+- Session Subject セッションサブジェクト
