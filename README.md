@@ -1,5 +1,5 @@
 # NIST Special Publication 800-63B デジタルIDガイド (翻訳版)
-https://doi.org/10.6028/NIST.SP.800-63b    
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf  
 
 1. [目的](#1-目的)
 2. [はじめに](#2-はじめに)
@@ -19,6 +19,15 @@ https://doi.org/10.6028/NIST.SP.800-63b
 _本セクションは参考情報である._
 
 本書及び付随文書であるSpecial Publication (SP) 800-63，SP 800-63AおよびSP 800-63Cは，政府機関に対してデジタル認証の実装のための技術的なガイドラインを提供する．
+
+<details>
+<summary>1 Purpose</summary>
+_This section is informative._
+
+This document and its companion documents, Special Publication (SP) 800-63, SP 800-63A,
+and SP 800-63C, provide technical guidelines to agencies for the implementation of digital
+authentication.
+</details>
 
 ## 2 はじめに
 _本セクションは参考情報である._
